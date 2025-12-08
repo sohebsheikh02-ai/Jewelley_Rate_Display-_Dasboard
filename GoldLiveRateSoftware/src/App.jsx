@@ -1,6 +1,9 @@
 import './App.css'
 import GoldLiveRatesComponentOld from './Components/GoldLiveRatesComponentOld'
 import GoldLiveRatesComponent from './Components/GoldLiveRatesComponent'
+import JewelleryPricingForm from './Components/JewelleryPricingForm'
+
+
 
 
 function App() {
@@ -13,7 +16,10 @@ function App() {
         shopImageSrc = "../प्रमोद रामभाऊ काळे ज्वेलर्स, पुलगांव.png"
         shopSalutation = "../Layer.png"
         defaultRefreshSeconds = {5}
-      />      
+      /> 
+      <div className="mt-10 px-4">
+        <JewelleryPricingForm />
+      </div>
     </>
   )
 }
